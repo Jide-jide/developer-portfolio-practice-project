@@ -8,6 +8,10 @@
 	--font-secondary: 'Inter', sans-serif;
 }
 
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
 /*tyopgraphy*/
 ::selection {
   background: var(--color-accent);
@@ -15,4 +19,36 @@
 
 html {
 	font-size: 62.5%;
+}
+
+body {
+	background: black;
+	padding: 2rem;
+}
+
+/*buttons*/
+.btn {
+	padding: 1.5rem 3rem;
+	font-size: 2rem;
+	border: 0;
+	outline: 0;
+	font-family: var(--font-primary);
+}
+
+.btn-accent {
+	background: var(--color-accent);
+}
+
+/*icons*/
+.icon {
+	width: 30px;
+	height: 20px;
+}
+
+.icon--white {
+	fill: white;
+}
+
+.icon--grey {
+	fill: #ccc;
 }
