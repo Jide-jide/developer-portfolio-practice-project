@@ -7,3 +7,12 @@
 	--font-primary: 'Prata', serif;
 	--font-secondary: 'Inter', sans-serif;
 }
+
+/*tyopgraphy*/
+::selection {
+  background: var(--color-accent);
+}
+
+html {
+	font-size: 62.5%;
+}
