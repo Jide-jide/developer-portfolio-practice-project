@@ -26,6 +26,11 @@ body {
 	padding: 2rem;
 }
 
+a {
+	text-decoration: none;
+	color: var(--color-body);
+}
+
 /*buttons*/
 .btn {
 	padding: 1.5rem 3rem;
@@ -51,4 +56,22 @@ body {
 
 .icon--grey {
 	fill: #ccc;
+}
+
+/*lists*/
+.lists {
+	font-size: 1.8rem;
+	font-family: var(--font-secondary);
+	list-style: none;
+	display: none;
+}
+
+.lists li {
+	padding: 1.5rem;
+}
+
+@media screen and (min-width: 900px) {
+	.lists {
+		display: flex;
+	}
 }
