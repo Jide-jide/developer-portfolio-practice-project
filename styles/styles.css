@@ -190,3 +190,18 @@ p::selection {
  		height: 100%;
  	}
 }
+
+/*about block*/
+.about p {
+	margin-bottom: 3rem;
+}
+
+.about__title {
+	font-size: 3.5rem;
+	font-weight: 300;
+	margin-bottom: 1.5rem;
+}
+
+.about__one {
+	padding-bottom: 3rem;
+}
