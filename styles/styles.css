@@ -215,3 +215,23 @@ p::selection {
 .contact-block p {
 	margin: 1.8rem 0;
 }
+
+/*footer*/
+.footer {
+	margin: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer p {
+	color: white;
+	font-family: var(--font-primary);
+	font-size: 1.7rem;
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+		margin: 0;	
+	}
+}
