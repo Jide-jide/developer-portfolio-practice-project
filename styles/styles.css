@@ -58,7 +58,7 @@ p::selection {
 
 /*buttons*/
 .btn {
-	padding: 1.5rem 3rem;
+	padding: 1.5rem 2.5rem;
 	font-size: 2rem;
 	border: 0;
 	outline: 0;
@@ -204,4 +204,14 @@ p::selection {
 
 .about__one {
 	padding-bottom: 3rem;
+}
+
+/*contact block*/
+.contact__title {
+	margin-bottom: 0;
+	font-size: 3.5rem;
+}
+
+.contact-block p {
+	margin: 1.8rem 0;
 }
