@@ -235,3 +235,19 @@ p::selection {
 		margin: 0;	
 	}
 }
+
+/*grid*/
+.grid {
+	display: grid;
+}
+
+@media screen and (min-width: 768px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr) ;
+	}
+}
+
+/*container*/
+.container {
+	max-width: 1142px;
+}
