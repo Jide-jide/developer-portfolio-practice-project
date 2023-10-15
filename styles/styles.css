@@ -335,3 +335,17 @@ p::selection {
   max-height: 100%;
   opacity: 1;
 }
+
+
+/*container*/
+.container {
+	max-width: 1142px;
+}
+
+.black-bg {
+	background: black;
+}
+
+.grey-bg {
+	background: #2e3038;
+}
