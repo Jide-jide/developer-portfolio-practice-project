@@ -23,7 +23,7 @@ html {
 
 body {
 	background: black;
-	padding: 2rem;
+	padding: 4rem 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -298,7 +298,7 @@ p::selection {
 }
 
 .nav__brand {
-	font-size: 1.7rem;
+	font-size: 2rem;
 	font-family: var(--font-primary);
 	color: white;
 }
