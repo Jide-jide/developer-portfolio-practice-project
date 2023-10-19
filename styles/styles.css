@@ -142,31 +142,32 @@ p::selection {
 }
 
 /*Companies block*/
-.companies-block {
+.companies-block{
+	margin: 8rem 3.5rem;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
-	justify-content: space-between;
-  margin: -10px; 
 }
 
-.companies-block img {
-  flex: 0 0 calc(50% - 20px);
-  margin: 10px;
+.companies-block>* {
+	margin: 1.5rem 2.5rem;
+	height: 2.5rem;
 }
 
-@media (min-width: 768px) {
-  .companies-block img {
-    flex: 0 0 calc(33.33% - 20px);
-  }
+@media screen and (min-width: 768px) {
+	
+	.companies-block > * {
+	    height: 82;
+	}
+
 }
 
-@media (min-width: 1024px) {
-  .companies-block {
-    flex-wrap: nowrap;
-  }
-  .companies-block img {
-    flex: 0 0 calc(16.66% - 20px);
-  }
+@media screen and (min-width: 768px) {
+
+	.companies-block {
+		margin: 8rem 0;
+		flex-wrap: nowrap;
+	}
 
 }
 
