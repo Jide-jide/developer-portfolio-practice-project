@@ -279,10 +279,15 @@ p::selection {
 
 /*footer*/
 .footer {
-	margin: 0 2rem;
+	margin: 3rem 2rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.footer .icon{
+	width: 40px;
+	height: 30px;
 }
 
 .brand-name {
@@ -293,7 +298,7 @@ p::selection {
 
 @media screen and (min-width: 768px) {
 	.footer {
-		margin: 0;	
+		margin: 3rem 0;	
 	}
 }
 
