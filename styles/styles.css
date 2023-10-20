@@ -246,7 +246,7 @@ p::selection {
 }
 
 .about__title {
-	font-size: 3.5rem;
+	font-size: 4.4rem;
 	font-weight: 300;
 	margin-bottom: 1.5rem;
 }
@@ -263,6 +263,17 @@ p::selection {
 
 .contact-block p {
 	margin: 1.8rem 0;
+}
+
+@media screen and (min-width: 1000px) {
+
+ 	.about__one {
+ 		margin: 0 33px;
+ 	}
+
+ 	.about__two {
+ 		margin: 0 33px;
+ 	}
 }
 
 /*footer*/
