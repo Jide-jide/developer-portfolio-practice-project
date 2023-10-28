@@ -24,19 +24,8 @@ html {
 
 body {
 	background: black;
-	padding: 4rem 2rem;
-}
-
-@media screen and (min-width: 768px) {
-	body {
-		padding: 4rem;
-	}
-}
-
-@media screen and (min-width: 1000px) {
-	body {
-		padding: 20px 150px;
-	}
+	display: grid;
+	place-items: center;
 }
 
 a {
@@ -55,13 +44,17 @@ h1, h2, h3 {
 p {
 	color: var(--color-body);
 	font-family: var(--font-secondary);
-	font-size: 2.17rem;
+	font-size: 2.5rem;
 	line-height: 1.6;
+}
+
+header {
+	width: 100%;
 }
 
 /*hero*/
 .hero {
-	max-width: 880px;
+	max-width: 1100px;
 }
 
 .hero h1 {
@@ -70,7 +63,7 @@ p {
 }
 
 .hero__tagline {
-	font-size: 2.3rem;
+	font-size: 2.5rem;
 	margin-top: 1rem;
 }
 
@@ -85,6 +78,13 @@ p {
 		margin-top: 50px;
 	}
 
+	.hero h1 {
+		font-size: 9rem;
+	}
+
+	.hero .container-black {
+		padding-right: 0;
+	}
 }
 
 /*buttons*/
@@ -134,7 +134,7 @@ p {
 
 /*Companies block*/
 .companies-block{
-	margin: 8rem 3.5rem;
+	margin: 3rem 3.5rem;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -171,6 +171,7 @@ p {
 		margin: 8rem 0;
 		display: flex;
 		justify-content: center;
+		flex-wrap: nowrap;
 	}
 
 	.companies-block div {
@@ -251,8 +252,6 @@ p {
 
 /*about block*/
 .about-block {
-	display: flex;
-	justify-content: space-between;
 }
 
 .about p {
@@ -260,7 +259,7 @@ p {
 }
 
 .about__title {
-	font-size: 4.4rem;
+	font-size: 4.5rem;
 	font-weight: 300;
 	margin-bottom: 1.5rem;
 }
@@ -270,6 +269,11 @@ p {
 }
 
 @media screen and (min-width: 1000px) {
+
+	.about-block {
+		display: flex;
+
+	}
 
  	.about__one {
  		margin-right: 30px;
@@ -293,10 +297,15 @@ p {
 
 /*footer*/
 .footer {
-	margin: 3rem 2rem;
+	margin: 3rem 0 0 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
+}
+
+.footer a {
+	color: white;
 }
 
 .footer .icon{
@@ -312,7 +321,7 @@ p {
 
 @media screen and (min-width: 768px) {
 	.footer {
-		margin: 3rem 0;	
+		margin: 3rem 0 0 0;	
 	}
 }
 
@@ -335,12 +344,17 @@ p {
   flex-wrap: wrap;
   padding: 1rem 0;
   align-items: center;
+  width: 100%;
+}
+
+.nav a {
+	color: white;
+	font-size: 2.5rem;
 }
 
 .nav__brand {
 	font-size: 2.5rem;
 	font-family: var(--font-primary);
-	color: white;
 }
 
 .nav__list {
@@ -419,14 +433,27 @@ p {
 }
 
 /*container*/
-.container {
-	max-width: 1142px;
-}
-
-.black-bg {
-	background: black;
-}
-
-.grey-bg {
+.container-grey {
+	padding: 2rem;
 	background: #2e3038;
+	display: flex;
+}
+
+.container-black {
+	padding: 2rem;
+	background: #000;
+}
+
+@media screen and (min-width: 768px) {
+	.container-black,
+	.container-grey {
+		padding: 4rem;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.container-black,
+	.container-grey {
+		padding: 3rem 9rem;
+	}
 }
