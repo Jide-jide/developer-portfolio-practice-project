@@ -100,6 +100,11 @@ header {
 	background: var(--color-accent);
 }
 
+.btn:hover {
+	background: #c3b43e;
+	cursor: pointer;
+} 
+
 /*icons*/
 .icon {
 	width: 30px;
