@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design]("./Design/my-design")
+![Design]("Design/my-design")
 
 ## My process
 
